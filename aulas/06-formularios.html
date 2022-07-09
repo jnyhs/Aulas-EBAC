@@ -1,0 +1,76 @@
+<! DOCTYPE html>
+<html lang="pt_BR">
+	<head>
+		<!-- Informações para o navegador-->
+			<title>Formulario Fale Conosco</title>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+	</head>
+	<body>
+
+		<header> 
+			<h2> Fale Conosco </h2>
+
+		</header>
+
+		<section>
+			<nav>
+				<ul> 
+					<li> <a href="./homepage.html"> Home </li>
+					<li><a href="01-intro.html">Introdução</a></li>
+					<li><a href="02-listaselinks.html">Listas e Links</a></li>
+					<li><a href="03-formatacaodetexto.html">Formatação de Texto</a></li>
+					<li><a href="04-tabelas.html">Tabelas</a></li>
+					<li><a href="05-layouts.html">Layouts</a></li>
+				</ul>
+			</nav>
+			<article>
+				<h1> Contato</h1>
+				<p> Preencha os Campos abaixo </p>
+
+				<form method="get">
+					<div>
+						<label for="nome">Nome </label>
+					<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+					</div>
+					<div>
+						<label for="email">E-mail</label>
+					<input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+					</div>				
+					<div>
+						<label for="mensagem">Mensagem </label>
+						<textarea name="mensagem" id="mensagem" rows="5"></textarea> 
+					</div>
+					<div>
+						<label> Qual Linguagem você prefere? </label>
+						<input type="radio" name="linguagens" value="html"> HTML  <input type="radio" name="linguagens" value="css"> CSS 
+						<input type="radio" name="linguagens" value="java"> Java
+					</div>
+					<div>
+						<label> Quais Linguagens você sabe? </label>
+						<input type="checkbox" name="linguagens" value="html"> HTML  <input type="checkbox" name="linguagens" value="css"> CSS 
+						<input type="checkbox" name="linguagens" value="java"> Java
+					</div>
+
+					<div>
+						<label>Qual sua cor favorita?
+						<select>
+							<option value="azul"> Azul </option>
+							<option value="verde"> Verde </option>
+							<option value="vermelho" > Vermelho </option>
+
+						</select>
+					</div>
+
+					<div> 
+						<input type="submit">
+					</div>
+				</form>
+		</article>
+		</section>
+
+		<footer> Desenvolvido por JNY </footer>			
+	</body>
+</html>

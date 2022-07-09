@@ -1,0 +1,73 @@
+<! DOCTYPE html>
+<html lang="pt_BR">
+	<head>
+		<!-- Informações para o navegador-->
+			<title>Formulario Fale Conosco</title>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+	</head>
+	<body>
+
+		<header> 
+			<h2> Fale Conosco </h2>
+
+		</header>
+
+		<section>
+			<nav>
+				<ul> 
+					<li> <a href="./05-layouts.html"> Home </li>
+					<li> <a href="#Sobre"> Sobre </li>
+					<li> <a href="#contato"> Contato </a>
+				</ul>
+			</nav>
+			<article>
+				<h1> Contato</h1>
+				<p> Preencha os Campos abaixo </p>
+
+				<form method="get">
+					<div>
+						<label for="nome">Nome </label><br>
+					<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+					</div>
+					<div>
+						<label for="email">E-mail</label><br>
+					<input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+					</div>				
+					<div>
+						<label for="mensagem">Mensagem </label><br>
+						<textarea name="mensagem" id="mensagem" rows="5"></textarea> 
+					</div>
+					<div>
+						<label> Qual Linguagem você preere? </label><br>
+						<input type="radio" name="linguagens" value="html"> HTML <br> <input type="radio" name="linguagens" value="css"> CSS <br>
+						<input type="radio" name="linguagens" value="java"> Java
+					</div>
+					<div>
+						<label> Quais Linguagens você sabe? </label><br>
+						<input type="checkbox" name="linguagens" value="html"> HTML <br> <input type="checkbox" name="linguagens" value="css"> CSS <br>
+						<input type="checkbox" name="linguagens" value="java"> Java
+					</div>
+
+					<div>
+						<label>Qual sua cor davorita?
+						<select>
+							<option value="azul"> Azul </option>
+							<option value="verde"> Verde </option>
+							<option value="vermelho" > Vermelho </option>
+
+						</select>
+					</div>
+
+					<div> 
+						<input type="submit">
+					</div>
+				</form>
+		</article>
+		</section>
+
+		<footer> Desenvolvido por JNY </footer>			
+	</body>
+</html>
